@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="0.1">
+    <tittle>Belajar HTML - Profile Pribadi</tittle>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            background: color #333333;
+            margin: 0;
+            padding: 0;
+            color:#000000
+        }
+
+        header {
+            background-color:#333333;
+            color:#F5F5F5;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #333333;
+            text-align:center;
+            padding: 10px;
+        }
+
+        nav a {
+            color:#F5F5F5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin:auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid #F5F5F5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+         
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color:#333333;
+            color:white;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333333;
+            color: white;
+            padding: 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        a.button {
+            display: inline-block;
+            background-color: #333333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        a.button:hover {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Belajar Website Html</h1>
+        <p> Belajar website dasar HTML dengan membuat halaman profile</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#Pendidikan">Pendidikan</a>
+        <a href="#Contact">Contact Saya</a>
+    </nav>
+
+    <main>
+        <section id="Tentang">
+        <h2 class="center">Tentang Saya</h2>
+        <img src="https://i.imgur.com/Qz6fV6F.jpeg" alt="Foto Profil">
+        <p>Halo! nama saya <storng>Farel</storng>saya sedang belajar dasar-dasar HTML dan membuat website pribadi ini sebagai latihan. Saya suka belajar hal baru tentang teknologi, desain web dan pemrograman. Tujuan saya adalah menjadi seorang <em>web developer</em> profesional di masa depan.</p>
+        </section>
+
+        <section id="Pendidikan">
+            <h2 class="center">Riwayat Pendidikan</h2>
+            <table>
+                <tr>
+                    <td>Tahun</td>
+                    <td>Institusi</td>
+                    <td>Keterangan</td>
+                </tr>
+                <tr>
+                    <td>2016-2019</td>
+                    <td>SMP NEGERI 1</td>
+                    <td>Lulus dengan nilai baik</td>
+                </tr>
+                <tr>
+                    <td>2021-2024</td>
+                    <td>SMK NEGERI 5 KAB.TANGERANG</td>
+                    <td>Jurusan Multimedia/DKV</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2 class="center">Hubungi saya</h2>
+            <p>Kamu bisa menghubungi saya melalui media berikut:</p>
+            <div class="center">
+                <a class="button" href="mailto:fareladiwibowo@gmail.com">Kirim Email</a>
+                <a class="button" href="https://instagram.com" target="_blank">Instagram</a>
+                <a class="button" href="081290671030" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Profile Pribadi | dibuat untuk belajar HTML oleh Farel</p>
+    </footer>
+
+</body>
+</html>
